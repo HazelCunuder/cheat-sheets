@@ -1,5 +1,27 @@
-# Hazel's cheat sheets
+# Cheat Sheets
 
-Within this repository, you will find a few cheat sheet that could help you navigate within various programs whenever you get stuck.
+## Description
 
-(All of these were generated with Chat-GPT, and fact checked by yours truly afterwards. This repository serves more as an experiment than actual valuable information).
+This is a compilation of cheat sheets that can help you navigate within various programs.
+They contain a variety of:
+
+- Commands
+- Shortcuts
+- Common Problems with their fix
+
+Hopefully, they'll be of help to you.
+
+## Table of Contents
+
+- [Usage](#usage)
+- [Contact](#contact)
+
+## Usage
+
+Click on one of the different md files and enjoy your read.
+
+## Contact
+
+Hazel Cunuder - [hazel.claire.lee@gmail.com](mailto:hazel.claire.lee@gmail.com)
+
+GitHub: [HazelCunuder](https://github.com/HazelCunuder)
