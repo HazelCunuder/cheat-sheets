@@ -20,6 +20,7 @@ ChatGPT is an AI chatbot developped by OpenAI, it is a large language model desi
 - [Role prompting](#role-prompting)
   - [What is Role prompting?](#about-rp)
 - [Using it to Code](#usage)
+  - [Role playing](#rp-code)
 - [Reliability](#reliability)
 
 <div id='basics'/>
@@ -63,12 +64,34 @@ This provides some context to the AI, helping it give you more accurate answers 
 
 To continue our Spaghetti example, if we tell ChatGPT that they are a 3 Star Michelin Chef before asking them for a Spaghetti Bolognese, the answer is going to be completely different, as well as the tone of ChatGPT.
 
-> [PastaGPT-3]()
-> [PastaGPT-4]()
+> ![PastaGPT 3](https://media.discordapp.net/attachments/1222310007832314016/1351273554876043354/image.png?ex=67d9c710&is=67d87590&hm=466e9d3156a73ce305a3c0da4eebf7cdbb3f80dfb5b64a1da7eb0fd758718644&=&format=webp&quality=lossless&width=604&height=544)
+> ![PastaGPT 4](https://media.discordapp.net/attachments/1222310007832314016/1351273555303600168/image.png?ex=67d9c711&is=67d87591&hm=d120b2d0c43534a5a02dccb2f3c59156e7debfd72c0fd23163a89d6cb99d04a1&=&format=webp&quality=lossless)
+> ![PastaGPT 5](https://media.discordapp.net/attachments/1222310007832314016/1351273555643601078/image.png?ex=67d9c711&is=67d87591&hm=87ca42217f08cfbd1ec18f457aea440c787073248cc55ff3bb8c811a75f24e82&=&format=webp&quality=lossless&width=577&height=544)
+> ![PastaGPT 6](https://media.discordapp.net/attachments/1222310007832314016/1351273556071415918/image.png?ex=67d9c711&is=67d87591&hm=ba89dfc797062e5bf0a18011822e23e312ae3f8ddd3eb959b3132b283122c5d7&=&format=webp&quality=lossless&width=640&height=544)
+
+As you can see, compared to the first result, when we didn't ask GPT to endorse a role, this answer is much more detailed and specific.
 
 <div id="usage"/>
 
 ## Using it to Code
+
+Now, you might be thinking:
+
+>"But Hazel, how is knowing how to ask ChatGPT to give me a Spaghetti Bolognese recipe going to help me code?"
+
+Well, this is what this part is for.
+
+<div id="rp-code"/>
+
+### Role playing
+
+As stated before, asking ChatGPT to endorse a role prior to asking him a question helps it give you a more detailed answer. We can use this to our advantage whenever we need to enquire its help for coding related questions.
+
+Depending on the project, you can ask ChatGPT to take on the mantle of a Senior Full Stack Developer, a Javascript savant, or even Guido Van Rossum, creator of Python.
+
+Once in character, ChatGPT will be able to help you more effectively
+
+### 
 
 <div id='reliability'/>
 
