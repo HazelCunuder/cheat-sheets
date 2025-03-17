@@ -19,8 +19,10 @@ ChatGPT is an AI chatbot developped by OpenAI, it is a large language model desi
   - [Example](#pb-example)
 - [Role prompting](#role-prompting)
   - [What is Role prompting?](#about-rp)
+  - [Example](#example-rp)
 - [Using it to Code](#usage)
   - [Role playing](#rp-code)
+  - [Asking it the right question](#asking-questions)
 - [Reliability](#reliability)
 
 <div id='basics'/>
@@ -89,10 +91,28 @@ As stated before, asking ChatGPT to endorse a role prior to asking him a questio
 
 Depending on the project, you can ask ChatGPT to take on the mantle of a Senior Full Stack Developer, a Javascript savant, or even Guido Van Rossum, creator of Python.
 
-Once in character, ChatGPT will be able to help you more effectively
+Once in character, ChatGPT will be able to help you more effectively.
 
-### 
+<div id='asking-questions'/>
+
+### Asking it the right questions
+
+You've asked ChatGPT to play the role of an expert developer, so... now what?
+
+Well, now is the time to ask your question.
+
+But don't just go 
+
+> "How make game not broken?"
+
+No, you need to be precise in what you're asking if you need it's help fixing an error, detail your process and give the error message you got. Doing so before asking the AI to help you will help it understand how you got that error, and which step went wrong.
+
+This will help the AI identify the root of the problem and give you a hand for fixing it.
 
 <div id='reliability'/>
 
 ## Reliability
+
+But how do I know that ChatGPT's answer will actually work? Well, unfortunately, no AI can guarantee a 100% success rate. However, there are ways to make the answers more reliable.
+
+The method I found the most consistent is to ask ChatGPT to give you a step-by-step explanation of its answer. This gives you a way to understand and verify the AI's thought process and prrune out false information.
