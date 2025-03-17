@@ -17,14 +17,25 @@ ChatGPT is an AI chatbot developped by OpenAI,
 - [Basics](#basics)
 - [Role prompting](#role-prompting)
 - [Using it to Code](#usage)
+- [Reliability](#reliability)
 
 <div id='basics'/>
 
 ## Basics
 
-To use ChatGPT, you can go to [ChatGPT.com](https://chatgpt.com) and enter your first prompt. 
+### The Prompt box
 
-But what is a prompt? I hear you ask, well it's a command 
+The first thing to understand is the prompt box, this is where you'll be inputting everything you want ChatGPT to know and do.
 
-[ChatGPT Prompt box](https://media.discordapp.net/attachments/1318557638585483346/1351185388898750535/RDT_20250317_1427586432592119480331560.jpg?ex=67d974f4&is=67d82374&hm=4277987ca527c1bc482c5bbe1afe04ee130d04e783eb5dffd428086985b88a40&=&format=webp)
+![ChatGPT Prompt Box](~/sites/lab/git/cheat-sheets/Pictures/ChatGPT-PromptBox.png)
 
+
+<div id='role-prompting'/>
+
+## Role Prompting
+<div id="usage"/>
+
+## Using it to Code
+<div id='reliability'/>
+
+## Reliability
