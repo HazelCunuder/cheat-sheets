@@ -115,4 +115,4 @@ This will help the AI identify the root of the problem and give you a hand for f
 
 But how do I know that ChatGPT's answer will actually work? Well, unfortunately, no AI can guarantee a 100% success rate. However, there are ways to make the answers more reliable.
 
-The method I found the most consistent is to ask ChatGPT to give you a step-by-step explanation of its answer. This gives you a way to understand and verify the AI's thought process and prrune out false information.
+The method I found the most consistent is to ask ChatGPT to give you a step-by-step explanation of its answer. This gives you a way to understand and verify the AI's thought process and prune out false information.
