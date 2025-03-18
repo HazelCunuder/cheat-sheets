@@ -60,7 +60,7 @@ Role prompting is a method that consist of telling ChatGPT to endorse the role o
 
 This provides some context to the AI, helping it give you more accurate answers on a specific topic.
 
-<div id=="example-rp"/>
+<div id="example-rp"/>
 
 ### Example
 
