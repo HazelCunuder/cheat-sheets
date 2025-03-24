@@ -32,14 +32,23 @@
 | `<strong> ... </strong>` | Strong - shown as bold |
 | `<em> ... </em>` | Emphasis - Shown as italics |
 
-### Architecture
+### Attributes
 
-### Fonctionnements des attributs
+| Attribute | Description |
+| --- | --- |
+| `href` | Link to other page URL |
+| `src` | Path to an image |
+| `width` | Specify the width of an element |
+| `height` | Specify the height of an element |
+| `alt` | Create Alt text for an image |
+| `lang` | Specify the page's language |
+| `title` | Create a tooltip for an element |
+| `style` | Add style for an element |
 
-### Commentaires
+### Comments
 
-### Parent/Enfant
+### Parent/Child
 
-### Sémantique
+### Semantics
 
-### Lien relatifs/absolus
+### Relative/Absolute links
