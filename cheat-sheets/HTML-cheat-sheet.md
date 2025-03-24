@@ -56,7 +56,7 @@ You can add comments to your HTML code by doing the following:
 Adding Comments can be useful to describe what the code does *(or to reconsider your life choices)*.
 You can also use them in order to debug our code by hiding a line at a time to find the broken code.
 
-You can also hide more than one line using the comment tags. 
+You can also hide more than one line using the comment tags.
 
 ```zsh
 <!-- 
@@ -65,7 +65,14 @@ You can also hide more than one line using the comment tags.
 -->
 ```
 
-### Parent/Child
+### The Family Tree
+
+An HTML document is basically structured like a family tree, there are ancestors, parents, children, siblings, etc.
+
+This structure can easily be explained with the following picture
+
+![HTML Family Tree](https://www.tutorjoes.in/js_program/family_tree.jpg)
+&copy; tutorjoes.in
 
 ### Semantics
 
