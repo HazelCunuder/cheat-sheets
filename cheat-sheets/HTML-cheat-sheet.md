@@ -47,6 +47,24 @@
 
 ### Comments
 
+You can add comments to your HTML code by doing the following:
+
+```zsh
+<!-- Insert your comment here -->
+```
+
+Adding Comments can be useful to describe what the code does *(or to reconsider your life choices)*.
+You can also use them in order to debug our code by hiding a line at a time to find the broken code.
+
+You can also hide more than one line using the comment tags. 
+
+```zsh
+<!-- 
+    <p>This is hidden</p>
+    <p>And so is this</p>
+-->
+```
+
 ### Parent/Child
 
 ### Semantics
