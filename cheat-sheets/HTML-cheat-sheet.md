@@ -1,5 +1,13 @@
 # HTML5 Cheatsheet
 
+## HTML Role
+
+HTML is a language used to build the basic structure of a web page. It stands for Hyper Text Markup Language, and is the standard language for building web pages.
+
+Using different tags, it tells your browser how your page is structured and what to show.
+
+It is the most basic of web languages and a must know for every aspiring web developer.
+
 ## HTML Basics
 
 ### Basic Structure
