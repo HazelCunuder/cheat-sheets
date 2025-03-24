@@ -97,4 +97,24 @@ Whereas `<div>` doesn't, making it **non-semantic**.
 | `<summary>`  | Defines a visible heading for a `<details>` element |
 | `<time>`     | Defines a date/time |
 
-### Relative/Absolute links
+### Relative/Absolute Paths
+
+When inserting a file inside of your html code, you will need to describe its path to your code. There are 2 ways to do this.
+
+You can either write the full URL to a file if it has one, like this:
+
+```zsh
+<img src="https://external-preview.redd.it/HvRHG_yCXU8q5biZkkmv_ENnzgAaI-SH5NDYasF2yYo.png?width=640&crop=smart&format=pjpg&auto=webp&s=c0c7ced8f7f7cc400a66ce967baf2a9068ccb1bc">
+```
+
+The above example is an **absolute** path.
+
+The other option, is to include the path to a file relative to the current page, this is the **relative** path.
+
+In the following example, the file path points to a file in the images folder located at the root of the current web:
+
+```zsh
+<img src="/images/picture.jpg">
+```
+
+If possible, using relatives paths is a better option as they are not bound to an URL that is subject to change.
