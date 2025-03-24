@@ -4,6 +4,18 @@
 
 ### Structure de base
 
+```bsh
+    <html>
+        <head>
+            <title>website title</title>
+        </head>
+        
+        <body>
+            content
+        </body>
+    </html>
+```
+
 ### Principaux Tags
 
 ### Architecture
