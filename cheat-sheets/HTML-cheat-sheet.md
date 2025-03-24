@@ -23,7 +23,6 @@ It is the most basic of web languages and a must know for every aspiring web dev
 | **Mobile Support** | Not designed with mobile in mind | Mobile-friendly, responsive, supports touch events |
 | **Parsing Rules** | Strict, based on SGML | More flexible, error-handling improved |
 
-
 ## HTML Basics
 
 ### Basic Structure
