@@ -8,6 +8,22 @@ Using different tags, it tells your browser how your page is structured and what
 
 It is the most basic of web languages and a must know for every aspiring web developer.
 
+### HTML4 vs HTML5
+
+| Feature            | HTML4                                          | HTML5                                          |
+|--------------------|----------------------------------------------|----------------------------------------------|
+| **Doctype**       | `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">` | `<!DOCTYPE html>` (simplified) |
+| **Multimedia**    | Uses `<object>`, `<embed>`, and third-party plugins (e.g., Flash) | Native support for `<audio>` and `<video>` elements |
+| **Semantic Elements** | Limited, relies heavily on `<div>` and `<span>` | Introduces `<article>`, `<section>`, `<header>`, `<footer>`, etc. |
+| **Form Enhancements** | Basic form elements; validation requires JavaScript | New input types (`email`, `date`, `number`), attributes (`placeholder`, `required`) |
+| **Canvas & Graphics** | Requires third-party plugins like Flash | Introduces `<canvas>` for drawing and native SVG support |
+| **Storage**       | Relies on cookies for client-side storage | Supports `localStorage` and `sessionStorage` for persistent storage |
+| **APIs**         | Limited built-in APIs | New APIs like Geolocation, WebSockets, Web Storage, and Drag-and-Drop |
+| **JavaScript Support** | Requires external libraries for many features | Enhanced JavaScript API support, including Web Workers and WebRTC |
+| **Mobile Support** | Not designed with mobile in mind | Mobile-friendly, responsive, supports touch events |
+| **Parsing Rules** | Strict, based on SGML | More flexible, error-handling improved |
+
+
 ## HTML Basics
 
 ### Basic Structure
