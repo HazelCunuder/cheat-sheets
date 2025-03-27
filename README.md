@@ -13,8 +13,15 @@ Hopefully, they'll be of help to you.
 
 ## Table of Contents
 
-- [Usage](#usage)
-- [Contact](#contact)
+- [Firefox Cheat Sheet](/cheat-sheets/Browser%20Cheat%20Sheet.md)
+- [ChatGPT Cheat Sheet](/cheat-sheets/chatGPT-cheat-sheet.md)
+- [Discord Cheat Sheet](/cheat-sheets/discord-cheat-sheet.md)
+- [Git Cheat Sheet](/cheat-sheets/Git%20Cheat%20Sheet.md)
+- [HTML Cheat Sheet](/cheat-sheets/HTML-cheat-sheet.md)
+- [Markdown Cheat Sheet](/cheat-sheets/Markdown%20Cheat%20Sheet.md)
+- [Prototyping Cheat Sheet](/cheat-sheets/Markdown%20Cheat%20Sheet.md)
+- [System Cheat Sheet](/cheat-sheets/System%20Cheat%20Sheet.md)
+- [Terminal Cheat Sheet](/cheat-sheets/Terminal%20Cheat%20Sheet.md)
 
 ## Usage
 
