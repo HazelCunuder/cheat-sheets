@@ -104,21 +104,36 @@ Semantics elements are elements that clearly describe its meaning to both the br
 For example, `<img>` is a **sementic** element, because it clearly define its content.
 Whereas `<div>` doesn't, making it **non-semantic**.
 
-| Tag         | Description |
-|------------|------------|
-| `<article>`  | Defines independent, self-contained content |
-| `<aside>`    | Defines content aside from the page content |
-| `<details>`  | Defines additional details that the user can view or hide |
-| `<figcaption>` | Defines a caption for a `<figure>` element |
-| `<figure>`   | Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc. |
-| `<footer>`   | Defines a footer for a document or section |
-| `<header>`   | Specifies a header for a document or section |
-| `<main>`     | Specifies the main content of a document |
-| `<mark>`     | Defines marked/highlighted text |
-| `<nav>`      | Defines navigation links |
-| `<section>`  | Defines a section in a document |
-| `<summary>`  | Defines a visible heading for a `<details>` element |
-| `<time>`     | Defines a date/time |
+| Tag         | Purpose | 🔎 Misuse Warning | Spec Link |
+|------------|------------|------------|------------|
+| `<!doctype>` | Declares HTML5 document type | None | [Doctype](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode) |
+| `<html>` | Root element of the HTML document | Omitting `lang` attribute harms accessibility | [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html) |
+| `<head>` | Contains metadata, title, styles, scripts | Should not contain visible content | [Head](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head) |
+| `<body>` | Contains all visible content | None | [Body](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body) |
+| `<header>` | Introductory content for site or section | Misused when wrapping just headings without contextual content | [Header](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header) |
+| `<nav>` | Primary navigation links | Don't wrap every group of links; use only for major navigation | [Nav](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav) |
+| `<main>` | Main, unique content of the document | **Only one per page**; don't nest in `<article>` or `<section>` | [Main](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main) |
+| `<section>` | Thematically grouped content with heading | Misused as a generic container; only use with heading | [Section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section) |
+| `<article>` | Self-contained, distributable content | Misused when used solely as a layout wrapper | [Article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) |
+| `<aside>` | Content tangential to main content | Misused when essential to main content | [Aside](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) |
+| `<footer>` | Footer for document or section | Should not be used only for visual layout | [Footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer) |
+| `<address>` | Contact information for nearest section | Misused for physical address of random locations | [Address](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address) |
+| `<figure>` | Self-contained referenced content | Misused as generic image wrapper without reference intent | [Figure](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) |
+| `<figcaption>` | Caption for `<figure>` | Must be first or last child of `<figure>` | [Figcaption](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption) |
+| `<details>` | Disclosure widget for optional info | Misused for critical content | [Details](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) |
+| `<summary>` | Summary or label for `<details>` | Should be concise and relevant | [Summary](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) |
+| `<time>` | Machine-readable date/time | Misused when not specifying valid date/time format | [Time](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time) |
+| `<mark>` | Highlights relevant text | Misused for visual highlight only without context | [Mark](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark) |
+| `<blockquote>` | Quoted block content from external source | Misused without citing source or for small quotes | [Blockquote](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote) |
+| `<cite>` | Cited source title | Misused for people's names (only for works, titles) | [Cite](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite) |
+| `<abbr>` | Abbreviation/acronym | Misused without `title` attribute for full term | [Abbr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr) |
+| `<code>` | Inline code | Misused as visual monospace text without code meaning | [Code](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) |
+| `<kbd>` | User input (e.g., keyboard input) | Misused for non-input content | [Kbd](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd) |
+| `<samp>` | Program output | Rarely used; misused for input examples | [Samp](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp) |
+| `<em>` | Stress emphasis | Misused only for italics without contextual stress | [Em](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em) |
+| `<strong>` | Important text | Misused solely for bold styling without conveying importance | [Strong](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong) |
+| `<del>` | Deleted content | Misused for visual strikethrough without meaning | [Del](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del) |
+| `<ins>` | Inserted content | Misused without edit-tracking context | [Ins](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins) |
 
 ### Relative/Absolute Paths
 
