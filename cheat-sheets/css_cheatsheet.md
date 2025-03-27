@@ -51,6 +51,7 @@ p {
 ```css
 @import url("styles.css");
 ```
+
 ## 🎯 Selectors: Class, ID, Universal, Pseudo-classes, Pseudo-elements
 
 | Selector Type       | Syntax                | Example                         | Purpose                                                              |
