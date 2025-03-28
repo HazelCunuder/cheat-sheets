@@ -204,3 +204,96 @@ Flexbox (Flexible Box Layout) is a CSS layout model designed to help arrange ele
 ### How Flexbox Works
 
 Flexbox consists of a **flex container** and **flex items**. When you apply `display: flex` to a container, all of its direct children become flex items and are automatically aligned according to the specified flex properties.
+
+#### Enabling Flexbox
+
+To use Flexbox, set the container's `display` property to `flex` or `inline-flex`:
+
+```css
+.container {
+  display: flex; /* or inline-flex */
+}
+```
+
+### Flex Container Properties
+
+The flex container controls how its child elements (flex items) behave. The key properties are:
+
+#### 1. `flex-direction`
+
+Defines the main axis along which items are placed:
+
+```css
+.container {
+  flex-direction: row; /* default */
+  flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse;
+}
+```
+
+#### 2. `justify-content`
+
+Aligns items along the main axis:
+
+```css
+.container {
+  justify-content: flex-start; /* default */
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+}
+```
+
+#### 3. `align-items`
+
+Aligns items along the cross axis:
+
+```css
+.container {
+  align-items: stretch; /* default */
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  align-items: baseline;
+}
+```
+
+#### 4. `align-content`
+
+Controls spacing between multiple rows in a flex container with `flex-wrap: wrap`:
+
+```css
+.container {
+  align-content: flex-start;
+  align-content: flex-end;
+  align-content: center;
+  align-content: space-between;
+  align-content: space-around;
+  align-content: space-evenly;
+}
+```
+
+#### 5. `flex-wrap`
+
+Determines whether flex items should wrap to the next row:
+
+```css
+.container {
+  flex-wrap: nowrap; /* default */
+  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+}
+```
+
+#### 6. `gap`
+
+Defines space between flex items:
+
+```css
+.container {
+  gap: 10px;
+}
+```
