@@ -15,6 +15,7 @@ Hopefully, they'll be of help to you.
 
 - [Firefox Cheat Sheet](/cheat-sheets/Browser%20Cheat%20Sheet.md)
 - [ChatGPT Cheat Sheet](/cheat-sheets/chatGPT-cheat-sheet.md)
+- [CSS Cheat Sheet](/cheat-sheets/css_cheatsheet.md)
 - [Discord Cheat Sheet](/cheat-sheets/discord-cheat-sheet.md)
 - [Git Cheat Sheet](/cheat-sheets/Git%20Cheat%20Sheet.md)
 - [HTML Cheat Sheet](/cheat-sheets/HTML-cheat-sheet.md)
