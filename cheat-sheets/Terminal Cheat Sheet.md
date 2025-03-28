@@ -54,7 +54,7 @@ The terminal, also known as the command line or shell, is a powerful tool that a
 | `ip a` | Show IP addresses |
 | `netstat -tulnp` | Show active network connections (install with `sudo apt install net-tools`) |
 
-## Package Management 
+## Package Management
 
 | Command | Description |
 |---------|-------------|
