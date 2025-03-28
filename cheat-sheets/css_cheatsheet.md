@@ -192,3 +192,15 @@ Yellow (inline style) wins, then `#header`, then `.title`, then `h1`.
 
 **Bonus:**  
 You can learn more at the [MDN CSS Guide](https://developer.mozilla.org/en-US/docs/Web/CSS).
+
+---
+
+## Flexbox Guide
+
+### What is Flexbox?
+
+Flexbox (Flexible Box Layout) is a CSS layout model designed to help arrange elements efficiently inside a container, even when their sizes are dynamic. It allows for easy alignment, distribution, and spacing of items, making it a powerful tool for responsive web design.
+
+### How Flexbox Works
+
+Flexbox consists of a **flex container** and **flex items**. When you apply `display: flex` to a container, all of its direct children become flex items and are automatically aligned according to the specified flex properties.
