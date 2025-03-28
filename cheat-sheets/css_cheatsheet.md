@@ -297,3 +297,62 @@ Defines space between flex items:
   gap: 10px;
 }
 ```
+
+### Flex Item Properties
+
+Each flex item can be individually controlled using these properties:
+
+#### 1. `flex-grow`
+
+Defines how much a flex item should grow relative to others:
+
+```css
+.item {
+  flex-grow: 1; /* Takes up equal space */
+}
+```
+
+#### 2. `flex-shrink`
+
+Defines how much an item should shrink if needed:
+
+```css
+.item {
+  flex-shrink: 1; /* default */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+```
+
+#### 3. `flex-basis`
+
+Sets the initial size of an item before flex-grow/shrink are applied:
+
+```css
+.item {
+  flex-basis: 100px;
+}
+```
+
+#### 4. `flex`
+
+A shorthand for `flex-grow`, `flex-shrink`, and `flex-basis`:
+
+```css
+.item {
+  flex: 1 1 auto; /* default */
+}
+```
+
+#### 5. `align-self`
+
+Overrides `align-items` for a specific item:
+
+```css
+.item {
+  align-self: flex-start;
+  align-self: flex-end;
+  align-self: center;
+  align-self: baseline;
+  align-self: stretch;
+}
+```
