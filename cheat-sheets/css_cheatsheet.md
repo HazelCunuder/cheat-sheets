@@ -356,3 +356,40 @@ Overrides `align-items` for a specific item:
   align-self: stretch;
 }
 ```
+
+### Example: Simple Flexbox Layout
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Example</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+    .item {
+      background-color: #3498db;
+      color: white;
+      padding: 20px;
+      margin: 5px;
+      flex: 1;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+  </div>
+</body>
+</html>
+```
