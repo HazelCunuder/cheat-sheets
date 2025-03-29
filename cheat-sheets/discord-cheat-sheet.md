@@ -2,6 +2,15 @@
 
 Discord is a popular communication platform for text, voice, and video chat. This cheat sheet covers essential keyboard shortcuts, commands, and tips to enhance your experience.
 
+## Table of Content
+
+* [Shortcuts](#keyboard-shortcuts)
+  * [Navigation](#general-navigation)
+  * [Messaging](#messaging)
+  * [Voice and Video](#voice--video)
+  * [Miscellaneous](#miscellaneous)
+* [Commands](#common-commands)
+
 ## Keyboard Shortcuts
 
 ### General Navigation
