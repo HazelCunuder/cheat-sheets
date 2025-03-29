@@ -2,6 +2,16 @@
 
 Firefox is a fast, privacy-focused web browser developed by Mozilla. This cheat sheet covers essential keyboard shortcuts, tips, and troubleshooting steps to enhance your browsing experience.
 
+## Table of Content
+
+* [Shorcuts](#keyboard-shortcuts)
+  * [Navigation](#navigation)
+  * [Tabs Management](#tabs-management)
+  * [Zoom and Fullscreen](#zoom-and-fullscreen)
+  * [Bookmarks and History](#bookmarks-and-history)
+  * [Developer tools](#developer-tools)
+* [Common Issues](#common-issues-and-solutions)
+
 ## Keyboard Shortcuts
 
 ### Navigation
