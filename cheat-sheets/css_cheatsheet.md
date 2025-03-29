@@ -1,6 +1,16 @@
 # 🎨 CSS Cheatsheet — The Essentials
 
-## ✅ Basic Syntax
+## Table of Content
+
+* [Basic Syntax](#basic-syntax)
+* [🛠️ 4 Ways to Use CSS in HTML](#️-4-ways-to-use-css-in-html)
+* [🎯 Selectors](#-selectors-class-id-universal-pseudo-classes-pseudo-elements)
+* [🧩 How to Apply CSS to Elements](#-how-to-apply-css-to-elements)
+* [📦 The Box Model](#-the-box-model)
+* [🚀 Positioning in CSS](#-positioning-in-css)
+* [⚖️ Specificity](#️-specificity--which-rule-wins)
+
+## Basic Syntax
 
 ```css
 selector {
