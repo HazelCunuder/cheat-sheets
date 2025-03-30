@@ -4,6 +4,25 @@
 
 Flexbox (Flexible Box Layout) is a CSS layout model designed to help arrange elements efficiently inside a container, even when their sizes are dynamic. It allows for easy alignment, distribution, and spacing of items, making it a powerful tool for responsive web design.
 
+## Table of Content
+
+* [How it works](#how-flexbox-works)
+  * [Enabling it](#enabling-flexbox)
+* [Flex Container Properties](#flex-container-properties)
+  * [Flex Direction](#1-flex-direction)
+  * [Justify Content](#2-justify-content)
+  * [Align Items](#3-align-items)
+  * [Align Content](#4-align-content)
+  * [Flex Wrap](#5-flex-wrap)
+  * [Gap](#6-gap)
+* [Flex Item Properties](#flex-item-properties)
+  * [Flex Grow](#1-flex-grow)
+  * [Flex Shrink](#2-flex-shrink)
+  * [Flex Basis](#3-flex-basis)
+  * [Flex](#4-flex)
+  * [Align-self](#5-align-self)
+* [Example](#example-simple-flexbox-layout)
+
 ## How Flexbox Works
 
 Flexbox consists of a **flex container** and **flex items**. When you apply `display: flex` to a container, all of its direct children become flex items and are automatically aligned according to the specified flex properties.
