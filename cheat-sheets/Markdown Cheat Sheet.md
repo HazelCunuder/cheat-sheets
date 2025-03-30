@@ -2,6 +2,16 @@
 
 Markdown is a lightweight markup language that allows you to format text easily using a plain-text editor. It is commonly used for writing documentation, README files, and formatting content on platforms like GitHub, Reddit, and Stack Overflow.
 
+## Table of Content
+
+* [Basic Syntax](#basic-syntax)
+* [Lists](#lists)
+* [Tables](#tables)
+* [Blockquotes](#blockquotes)
+* [Code Blocks](#code-blocks)
+* [Horizontal rules](#horizontal-rule)
+* [Task Lists](#task-lists-github-flavored-markdown)
+
 ## Basic Syntax
 
 | Syntax | Description | Example |
@@ -27,10 +37,10 @@ Markdown is a lightweight markup language that allows you to format text easily 
   - Sub-item 2
 ```
 
-- Item 1
-- Item 2
-  - Sub-item 1
-  - Sub-item 2
+* Item 1
+* Item 2
+  * Sub-item 1
+  * Sub-item 2
 
 ### Ordered Lists
 
@@ -100,6 +110,6 @@ print("Hello, World!")
 - [ ] Task 3
 ```
 
-- [x] Task 1
-- [ ] Task 2
-- [ ] Task 3
+* [x] Task 1
+* [ ] Task 2
+* [ ] Task 3

@@ -1,5 +1,18 @@
 # HTML5 Cheatsheet
 
+## Table of Content
+
+* [HTML Role](#html-role)
+  * [HTML4 vs HTML 5](#html4-vs-html5)
+* [HTML Basics](#html-basics)
+  * [Basic Structure](#basic-structure)
+  * [Common Tags](#common-tags)
+  * [Attributes](#attributes)
+  * [Comments](#comments)
+  * [The Family Tree](#the-family-tree)
+  * [Semantics](#semantics)
+  * [Relative vs Absolute paths](#relativeabsolute-paths)
+
 ## HTML Role
 
 HTML is a language used to build the basic structure of a web page. It stands for Hyper Text Markup Language, and is the standard language for building web pages.
@@ -101,7 +114,7 @@ This structure can easily be explained with the following picture
 
 Semantics elements are elements that clearly describe its meaning to both the browseer and the developer.
 
-For example, `<img>` is a **sementic** element, because it clearly define its content.
+For example, `<figure>` is a **sementic** element, because it clearly define its content.
 Whereas `<div>` doesn't, making it **non-semantic**.
 
 | Tag         | Purpose | 🔎 Misuse Warning | Spec Link |

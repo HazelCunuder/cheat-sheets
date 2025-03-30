@@ -2,6 +2,16 @@
 
 The terminal, also known as the command line or shell, is a powerful tool that allows users to interact with the operating system through text-based commands. It provides direct access to system functions, file management, package installation, networking, and process control. Mastering the terminal can greatly enhance efficiency and automation.
 
+## Table of Content
+
+* [Basic Commands](#basic-commands)
+* [File Permission](#file-permissions)
+* [Proccess Management](#process-management)
+* [Networking](#networking)
+* [Package Management](#package-management)
+* [System Management](#package-management)
+* [Shortcuts](#shortcuts)
+
 ## Basic Commands
 
 | Command | Description |

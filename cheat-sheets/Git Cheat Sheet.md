@@ -2,6 +2,15 @@
 
 Git is a distributed version control system that allows developers to track changes in their code, collaborate efficiently, and manage project versions. Mastering Git commands can streamline development workflows and improve code management.
 
+## Table of Content
+
+* [Basic Commands](#basic-git-commands)
+* [Branching and merging](#branching-and-merging)
+* [Remote Repositories](#remote-repositories)
+* [Undoing Changes](#undoing-changes)
+* [Git Shortcuts](#git-shortcuts)
+* [Common Git Problems and Solutions](#common-git-problems-and-solutions)
+
 ## Basic Git Commands
 
 | Command | Description |
