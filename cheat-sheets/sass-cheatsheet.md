@@ -13,7 +13,21 @@ Sass is the most commonly used CSS Preprocessor (see notes about CSS Preprocesso
 
 ## How to install Sass
 
-You can go to [their website](https://sass-lang.com/install) to find multiple ways to install Sass on your computer.
+### Command Line
+
+1. **NPM**
+
+If you use Node.js, you can install sass with npm by running the following command.
+
+`npm install sass -g`
+
+This will install sass onto your computer and you'll be able to use it in every project.
+
+*However*, this will install the pure Javascript version of Sass which is slower than the other options. Luckily it uses the same interface so it'll make the transition to another implementation seamless.
+
+### Apps
+
+You also can go to [their website](https://sass-lang.com/install) to find a list of ways to install Sass through applications.
 
 ## How to compile SCSS into CSS
 
