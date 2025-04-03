@@ -22,6 +22,7 @@ Hopefully, they'll be of help to you.
 - [HTML Cheat Sheet](/cheat-sheets/HTML-cheat-sheet.md)
 - [Markdown Cheat Sheet](/cheat-sheets/Markdown%20Cheat%20Sheet.md)
 - [Prototyping Cheat Sheet](/cheat-sheets/Markdown%20Cheat%20Sheet.md)
+- [Sass Cheat Sheet](/cheat-sheets/sass-cheatsheet.md)
 - [System Cheat Sheet](/cheat-sheets/System%20Cheat%20Sheet.md)
 - [Terminal Cheat Sheet](/cheat-sheets/Terminal%20Cheat%20Sheet.md)
 
