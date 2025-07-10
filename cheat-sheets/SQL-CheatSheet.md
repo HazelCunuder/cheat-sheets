@@ -132,3 +132,74 @@ Makes result more manageable to understand and returns results faster.
 
 - We can use `HAVING` in order to filter grouped rows with conditions. It goes hand in hand with the previously mentioned GROUP BY clause, to allow us to filter grouped rows from the result set.
   - `HAVING` clause constraints are written in the same way as `WHERE`clause constraints.
+
+## Execution order of a query
+
+- Each query begins finding data and then filters it into something that can be processed as quickly as possible.
+
+### Order of execution
+
+1. `FROM` and `JOIN`: Execute first to detemrmine total working set of data to query? Also includes subqueries in the clause. --> May create temporary tables to contain columns and rows being joined.
+
+2. `WHERE`: Once we have the data we'll work on, `WHERE` constraints are applied to the rows and it discards rows that don't meet the constraints. Can only access columns requested in the `FROM` clause.
+
+3. `GROUP BY`: Remaining rows after where constraint are applied are grouped based on common values in column specified in `GROUP BY` clause. Many unique rows as there are unique values in that column.  Only use if there are aggregated functions in the query.
+
+4. `HAVING`: If query has `GROUP BY` clause --> `HAVING` clause applied to grouped rows and discard ones not matching.
+
+5. `SELECT`: Expression in select are computed.
+
+6. `DISTINCT`: Remove duplicate values.
+
+7. `ORDER BY`: If order specified, apply it now. Since it happens after SELECT, you can ref aliases here.
+
+8. `LIMIT/OFFSET`: Rows that fall outside of range specified are discarded.
+
+## Inserting rows
+
+### Schemas
+
+- A db schema is what describes the structure of each table and the datatypes that each table can contain.
+
+### Inserting new data
+
+- `INSERT INTO` statement: used to declare which table to write into, the colums of data we put into it and the rows to insert.
+
+- In general, each row of data you insert need to contain values for every column in the table. --> You can add multiple rows at once.
+
+- If you have incomplete data, you can specify the column you want to insert the data into (ONLY IF TABLE CONTAINS COLUMNS WITH DEFAULT VALUES)
+  - Number of values need to match --> nb of columns specified.
+
+- Can use mathematical and string expressions with inserted values. Can be used to format data a certain way.
+
+## Updating rows
+
+- `UPDATE` --> Modify existing data, specify exactly which table, column and row to update.
+
+- `SET`: Select the columns and rows you want to update.
+
+- `WHERE`: Can be used to put a condition on the update.
+
+### Taking care
+
+- You ***will*** make mistakes at some point, so be very careful with `UPDATE` statements.
+
+> ALWAYS WRITE CONSTRAINT FIRST AND TEST IT WITH A `SELECT` QUERY.
+
+## Deleting Rows
+
+- `DELETE FROM`: Statement to delete data from db, needs a condition with `WHERE`statement (If you want to wipe an entire table, you can forego the `WHERE` constraint)
+
+### Taking extra care
+
+> Same recommendations as before, but even more so if you don't have a backup. READ TWICE, DELETE ONCE.
+
+## Create new tables
+
+- If you have new entities and relationships to add to your db, you can create a new table with `CREATE TABLE`.
+  - You can skip creating a new table if one with that name already exists by adding `IF NOT EXISTS` to the `CREATE TABLE` statement.
+
+- The structure is defined by its schema.
+  - Each column has a name, a datatype, and an optional constraint on value being inserted, as well as a potential default value (indicated with `DEFAULT`)
+
+### Table data types
