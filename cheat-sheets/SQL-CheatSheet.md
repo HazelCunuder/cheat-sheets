@@ -2,6 +2,41 @@
 
 ## Table of Content
 
+- [Introduction](#introduction)
+  - [Relational Databases](#relational-databases)
+- [Basic commands](#basic-commands)
+- [Queries](#queries)
+  - [Queries with Constraints](#queries-with-constraints)
+- [Filter and sort Query results](#filter-and-sort-query-results)
+  - [Ordering results](#ordering-results)
+  - [Limiting results to subset](#limiting-results-to-subset)
+- [Multitable queries](#multitable-queries)
+  - [Database normalization](#database-normalization)
+- [Multi-table queries with JOINs](#multi-table-queries-with-joins)
+- [Nulls](#nulls)
+- [Queries with expressions](#queries-with-expressions)
+- [Queries with aggregates](#queries-with-aggregates)
+  - [Common aggregate functions](#common-aggregate-functions)
+  - [Grouped aggregate functions](#grouped-aggregate-functions)
+- [Execution order of a query](#execution-order-of-a-query)
+  - [Order of execution](#order-of-execution)
+- [Inserting rows](#inserting-rows)
+  - [Schemas](#schemas)
+  - [Inserting new data](#inserting-new-data)
+- [Updating rows](#updating-rows)
+  - [Taking care](#taking-care)
+- [Deleting Rows](#deleting-rows)
+  - [Taking extra care](#taking-extra-care)
+- [Create new tables](#create-new-tables)
+  - [Table data types](#table-data-types)
+  - [Table constraints](#table-constraints)
+- [Altering tables](#altering-tables)
+  - [Adding columns](#adding-columns)
+  - [Removing column](#removing-column)
+  - [Renaming table](#renaming-table)
+- [Dropping tables](#dropping-tables)
+- [Subqueries](#subqueries)
+
 ## Introduction
 
 What's SQL? It stands for Structured Query Language.
@@ -203,3 +238,67 @@ Makes result more manageable to understand and returns results faster.
   - Each column has a name, a datatype, and an optional constraint on value being inserted, as well as a potential default value (indicated with `DEFAULT`)
 
 ### Table data types
+
+| BOOLEAN, INTEGER | FLOAT, DOUBLE, REAL | CHARACTER(num_chars), VARCHAR(num_chars), TEXT | DATE, DATETIME | BLOB |
+| :---: | :---: | :---: | :---: | :---: |
+| Whole int values, in some implementations, bool is represented as int 0 and 1 | Stores precise numerical data | Stores strings (CHAR and VARCHAR specified with max number of chars to make it more space efficient) | Stores date and timestamps (may cause problems when working accross timezones) | Stores binary data in blobs, opaque to the db |
+
+### Table constraints
+
+| PRIMARY KEY | AUTOINCREMENT | UNIQUE | NOT NULL | CHECK(expression) | FOREIGN KEY |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Values in column are unique and value can be used to id a single row in table | Only for int values, value automatically increases with each row insertion, not supported everywhere | Values in column have to be unique (doesn'tt have to be a key) | Value cannot be null | Run a more complex expression to test valid values | Checks if value in the column match another value in another table |
+
+## Altering tables
+
+- Possible to update table schema over time by using `ALTER TABLE`statement.
+
+### Adding columns
+
+Similar syntax to creating new rows. MySQL allows to specify where precisely to insert column.
+
+```sql
+ALTER TABLE mytable
+ADD column DATATYPE OptionalTableConstraint
+  DEFAULT default_value;
+```
+
+### Removing column
+
+You remove columns by using the `DROP` statement. Some db don't support this feature, so need to create new db and migrate the data over to the new db.
+
+```sql
+ALTER TABLE mytable
+DROP column_to_be_deleted;
+```
+
+### Renaming table
+
+- `RENAME TO`: Allows you to change table name if need to
+
+```sql
+ALTER TABLE mytable
+RENAME TO new_table_name;
+```
+
+## Dropping tables
+
+- `DROP TABLE`: allows you to remove an entire table and all its data and metadata. Unlike `DELETE` it also removes the table schema from the db.
+
+```sql
+DROP TABLE IF EXISTS mytable;
+```
+
+- If other table dependant on colums in table you are removing --> Need to update all dependant tables first, or remove them as well.
+
+## Subqueries
+
+- Can be referenced anywhere a normal table can be referenced.
+
+- In `FROM`clause, you can `JOIN` subqueries with other tables.
+
+- You can also test expressions against the results of a subquery.
+
+- Executed in same order as described before.
+
+> Each subquery need to be in parenthesis to establish proper hierarchy.
