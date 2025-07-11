@@ -21,7 +21,7 @@ psql -U username -d dbname
 ```sql
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
-    name TEXT NOT NULL,
+    name VARCHAR(100) NOT NULL,
     email TEXT UNIQUE
 );
 
@@ -54,4 +54,32 @@ UPPER(text);     -- Uppercase
 
 ```sql
 CREATE INDEX idx_name ON users(name);
+```
+
+## Add users and manage permissions
+
+### Users
+
+```sql
+-- Create User --
+CREATE USER <user_name> WITH PASSWORD '<password>';
+
+-- Drop (Delete) User --
+DROP USER IF EXISTS <user_name>;
+
+-- Alter User Passwords --
+ALTER ROLE <user_name> WITH PASSWORD '<password>';
+```
+
+### Permissions
+
+```sql
+-- Grant ALL  permissions on database --
+GRANT ALL PRIVILEGES ON DATABASE <db_name> TO <user_name>;
+
+-- Grant connection to select on table --
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO <username>;
+
+-- Grant permissions on on all tables of db --
+GRANT SELECT, UPDATE, INSERT ON ALL TABLES IN SCHEMA public TO <user_name>;
 ```
