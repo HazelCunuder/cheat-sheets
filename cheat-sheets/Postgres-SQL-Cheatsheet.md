@@ -1,5 +1,20 @@
 # Postgres SQL Cheatsheet
 
+## Table of Contents
+
+- [Connecting](#connecting)
+- [Basic Commands](#basic-commands)
+- [Table Operations](#table-operations)
+- [Query Examples](#query-examples)
+- [Useful Functions](#useful-functions)
+- [Indexes](#indexes)
+- [Add users and manage permissions](#add-users-and-manage-permissions)
+  - [Users](#users)
+  - [Permissions](#permissions)
+- [BACKUPS](#backups)
+  - [Create backup](#create-backup)
+  - [Restore backup](#restore-backup)
+
 ## Connecting
 
 ```sh
@@ -82,4 +97,18 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public TO <username>;
 
 -- Grant permissions on on all tables of db --
 GRANT SELECT, UPDATE, INSERT ON ALL TABLES IN SCHEMA public TO <user_name>;
+```
+
+## BACKUPS
+
+### Create backup
+
+```shell
+pg_dump -d <db_name> -f <filename>.sql
+```
+
+### Restore backup
+
+```psql
+psql -U user mydb < mydb_backup.sql
 ```
